@@ -1,6 +1,7 @@
 //Data source from DC Open Data
 // UNCOMMENT BELOW TO FIX MAP //
-// var wardGeoJsonUrl = "https://opendata.arcgis.com/datasets/0ef47379cbae44e88267c01eaec2ff6e_31.geojson"; //
+//var wardGeoJsonUrl = "https://opendata.arcgis.com/datasets/0ef47379cbae44e88267c01eaec2ff6e_31.geojson";//
+var wardGeoJsonUrl = "./wards.json";
 //Replace with your own token
 var accessToken = "pk.eyJ1Ijoibmljb2xlZGFuIiwiYSI6ImNpdmpwbnlwNTAxZGQyemxiejRkbDF4YWcifQ.mgWMXU8eZ31iIydjN1I6NA";
 //sets map functions including turning off the standard zoom buttons
@@ -10,6 +11,8 @@ var map = L.map('map', {
     zoom: 12,
     zoomControl: false
 });
+
+}).error(function() {});
 //Create map and load basemap tile layer
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, ' +
