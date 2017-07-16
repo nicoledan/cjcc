@@ -1,6 +1,6 @@
 
     //Data source from DC Open Data
-    //var wardGeoJsonUrl = "https://opendata.arcgis.com/datasets/0ef47379cbae44e88267c01eaec2ff6e_31.geojson";//
+    var wardGeoJsonUrl = "https://opendata.arcgis.com/datasets/0ef47379cbae44e88267c01eaec2ff6e_31.geojson";
     //var wardGeoJsonUrl = new L.GeoJSON.AJAX("./wards.geojson");//
     //Replace with your own token
     var accessToken = "pk.eyJ1Ijoibmljb2xlZGFuIiwiYSI6ImNpdmpwbnlwNTAxZGQyemxiejRkbDF4YWcifQ.mgWMXU8eZ31iIydjN1I6NA";

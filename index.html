@@ -13,6 +13,7 @@
     <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="https://dc.gov/sites/default/files/favicon_0.ico">
+    <script src="js/wards.js"></script>
     <style>
         body {
             margin: 0;
@@ -121,10 +122,10 @@
 </div>
 <script>
     //Data source from DC Open Data
-    //var wardGeoJsonUrl = "https://opendata.arcgis.com/datasets/0ef47379cbae44e88267c01eaec2ff6e_31.geojson";//
-     var wardGeoJsonUrl = "js/wards.geojson";
+    //var wardGeoJsonUrl = "https://opendata.arcgis.com/datasets/0ef47379cbae44e88267c01eaec2ff6e_31.geojson";
+    // var wardGeoJsonUrl = "js/wards.geojson";
     //Replace with your own token
-    var accessToken = "pk.eyJ1Ijoib2N0b2RjIiwiYSI6ImNpeWRjZm0yNDAwMDUzMGs1Z3JyZmd2NXQifQ.Y8a2TFYzj-5Oy3hTVb9cfw";
+    var accessToken = "pk.eyJ1Ijoibmljb2xlZGFuIiwiYSI6ImNpdmpwbnlwNTAxZGQyemxiejRkbDF4YWcifQ.mgWMXU8eZ31iIydjN1I6NA";
     //sets map functions including turning off the standard zoom buttons
     //and setting intial map focus point
     var map = L.map('map', {
@@ -157,16 +158,28 @@
         };
     }
     //Add DC Ward geojson to map
-    $.getJSON(wardGeoJsonUrl, function (data) {
-        var geojson = L.geoJson(data, {
-            style: style,
-            onEachFeature: function (feature, layer) {
+    //$.getJSON(wardGeoJsonUrl, function (data) {
+        //var geojson = L.geoJson(data, {
+            //style: style,
+            //onEachFeature: function (feature, layer) {
                 //create popup for each ward polygon
-                layer.bindPopup(feature.properties.NAME + "<br>" + "Rep. " + feature.properties.REP_NAME + "," + "<br>" + feature.properties.REP_PHONE)
-            }
-        });
-        geojson.addTo(map);
-    });
+              //  layer.bindPopup(feature.properties.NAME + "<br>" + "Rep. " + feature.properties.REP_NAME + "," + "<br>" + feature.properties.REP_PHONE)
+            //}
+        //});
+        //geojson.addTo(map);
+    //});
+    L.geoJson(wards, {
+      style: function (feature) {
+          return {
+             weight: 2,
+             opacity: 0.8,
+             color: 'blue',
+             fillOpacity: 0.0 };
+      },
+      onEachFeature: function (feature,layer) {
+        layer.bindPopup(feature.properties.NAME + "<br>" + "Rep. " + feature.properties.REP_NAME + "," + "<br>" + feature.properties.REP_PHONE + "<br>" + "Facts about the ward:" + "<br>" + "<img src='" + feature.properties.IMAGE + "'>" );
+      }
+    }).addTo(map);
     //open About This panel
     function openAbout() {
         $("#about").show();
@@ -178,5 +191,6 @@
         return false;
     }
 </script>
+
 </body>
 </html>
