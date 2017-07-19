@@ -14,7 +14,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 2, "WARD": 6, "NAME": "Ward 6", "REP_NAME": "Charles Allen", "IMAGE": "", "STORY":"Alan, a resident in the Capitol Hill neighborhood, says he was attacked and mugged 7 years ago on his way home from a local bank.", "WEB_URL": "http://dccouncil.us/council/charles-allen", "REP_PHONE": "(202) 724-8072", "REP_EMAIL": "callen@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 406, NW 20004", "WARD_ID": "6", "LABEL": "Ward 6", "AREASQMI": 6.22104529, "POP_2000": 70867, "POP_2010": 76238, "POP_2015": 84290, "Shape_Length": 24157.977434739707, "Shape_Area": 16064916.722161528
+            "OBJECTID": 2, "WARD": 6, "NAME": "Ward 6", "REP_NAME": "Charles Allen", "IMAGE": "", "STORY": "Alan, a resident in the Capitol Hill neighborhood, says he was attacked and mugged 7 years ago on his way home from a local bank.", "WEB_URL": "http://dccouncil.us/council/charles-allen", "REP_PHONE": "(202) 724-8072", "REP_EMAIL": "callen@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 406, NW 20004", "WARD_ID": "6", "LABEL": "Ward 6", "AREASQMI": 6.22104529, "POP_2000": 70867, "POP_2010": 76238, "POP_2015": 84290, "Shape_Length": 24157.977434739707, "Shape_Area": 16064916.722161528
         }
         ,
         "geometry": {
