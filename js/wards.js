@@ -3,7 +3,7 @@ var wards = [{
     "features":[ {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 1, "WARD": 8, "NAME": "Ward 8", "REP_NAME": "Trayon White, Sr.", "IMAGE": "bear.jpg", "WEB_URL": "http://dccouncil.us/council/trayon-white-sr", "REP_PHONE": "(202) 724-8045", "REP_EMAIL": "twhite@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 400, NW 20004", "WARD_ID": "8", "LABEL": "Ward 8", "AREASQMI": 11.93787146, "POP_2000": 74049, "POP_2010": 73662, "POP_2015": 81133, "Shape_Length": 28714.06942975485, "Shape_Area": 30965852.455329377
+            "OBJECTID": 1, "WARD": 8, "NAME": "Ward 8", "REP_NAME": "Trayon White, Sr.", "IMAGE": "bear.jpg", "STORY": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa,", "PAGE_URL": "ward8.html", "WEB_URL": "http://dccouncil.us/council/trayon-white-sr", "REP_PHONE": "(202) 724-8045", "REP_EMAIL": "twhite@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 400, NW 20004", "WARD_ID": "8", "LABEL": "Ward 8", "AREASQMI": 11.93787146, "POP_2000": 74049, "POP_2010": 73662, "POP_2015": 81133, "Shape_Length": 28714.06942975485, "Shape_Area": 30965852.455329377
         }
         ,
         "geometry": {
@@ -14,7 +14,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 2, "WARD": 6, "NAME": "Ward 6", "REP_NAME": "Charles Allen", "WEB_URL": "http://dccouncil.us/council/charles-allen", "REP_PHONE": "(202) 724-8072", "REP_EMAIL": "callen@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 406, NW 20004", "WARD_ID": "6", "LABEL": "Ward 6", "AREASQMI": 6.22104529, "POP_2000": 70867, "POP_2010": 76238, "POP_2015": 84290, "Shape_Length": 24157.977434739707, "Shape_Area": 16064916.722161528
+            "OBJECTID": 2, "WARD": 6, "NAME": "Ward 6", "REP_NAME": "Charles Allen", "IMAGE": "", "STORY":"Alan, a resident in the Capitol Hill neighborhood, says he was attacked and mugged 7 years ago on his way home from a local bank.", "WEB_URL": "http://dccouncil.us/council/charles-allen", "REP_PHONE": "(202) 724-8072", "REP_EMAIL": "callen@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 406, NW 20004", "WARD_ID": "6", "LABEL": "Ward 6", "AREASQMI": 6.22104529, "POP_2000": 70867, "POP_2010": 76238, "POP_2015": 84290, "Shape_Length": 24157.977434739707, "Shape_Area": 16064916.722161528
         }
         ,
         "geometry": {
@@ -69,7 +69,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 7, "WARD": 3, "NAME": "Ward 3", "REP_NAME": "Mary M. Cheh", "WEB_URL": "http://dccouncil.us/council/mary-m.-cheh", "REP_PHONE": "(202) 724-8062", "REP_EMAIL": "mcheh@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 108, NW 20004", "WARD_ID": "3", "LABEL": "Ward 3", "AREASQMI": 10.93471274, "POP_2000": 75335, "POP_2010": 78887, "POP_2015": 83152, "Shape_Length": 28342.167313250713, "Shape_Area": 28320779.70884481
+            "OBJECTID": 7, "WARD": 3, "NAME": "Ward 3", "REP_NAME": "Mary M. Cheh", "IMAGE": "", "STORY": "Recent college graduate, Matt Covert, says he feels completely safe walking the streets of his Ward 3 neighborhood.", "PAGE_URL": "ward3.html", "WEB_URL": "http://dccouncil.us/council/mary-m.-cheh", "REP_PHONE": "(202) 724-8062", "REP_EMAIL": "mcheh@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 108, NW 20004", "WARD_ID": "3", "LABEL": "Ward 3", "AREASQMI": 10.93471274, "POP_2000": 75335, "POP_2010": 78887, "POP_2015": 83152, "Shape_Length": 28342.167313250713, "Shape_Area": 28320779.70884481
         }
         ,
         "geometry": {

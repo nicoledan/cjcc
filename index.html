@@ -8,7 +8,7 @@
     -->
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Wards @ Washington, DC</title>
+    <title>Public Safety and Justice Report by Ward</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -84,10 +84,10 @@
 <body>
 <div id="map"></div>
 <div class='header'>
-    <div id="title">Wards @ Washington, DC</div>
+    <div id="title">Public Safety and Justice Report by Ward</div>
     <div style="float:right;">
         <a style="color:rgb(206,206,206);font-size:14px; margin-right:10px;"
-           href="https://github.com/DCgov/opendatadc-starterkit" target="_blank">This on Github</a>
+           href="https://github.com/nicoledan/cjcc" target="_blank">This on Github</a>
         <a style="color:rgb(206,206,206);font-size:14px;" href="javascript:void(0)"
            onclick="openAbout()">About This Map</a>
     </div>
@@ -98,7 +98,7 @@
         <p style="font-size: 1.4em; text-transform: uppercase; text-align: center">About this map
         </p>
         <p style="font-size:1.2em;">
-            This sample demonstrates how to load polygons from DC Open Data to overlay a map</p>
+            This map organizes the data from the 2017 Public Safety and Justice Report put together from the CJCC.</p>
         <p><strong>Instructions</strong>
             <br/> Click a ward on the map to display info</p>
         <p><strong>Built with...</strong>
@@ -111,8 +111,11 @@
         </p>
         <p><strong>DC Open Data</strong>
             <br/><a href="http://opendata.dc.gov" target="_blank">http://opendata.dc.gov</a></p>
-        <p><strong>Github Repository</strong>
+        <p><strong>Adapted from the following Github Repository</strong>
             <br/><a href="https://github.com/DCgov/opendatadc-starterkit" target="_blank">https://github.com/DCgov/opendatadc-starterkit</a>
+        </p>
+        <p><strong>Github Repository for this project</strong>
+          <br/><a href="https://github.com/nicoledan/cjcc" target="_blank">https://github.com/nicoledan/cjcc</a>
         </p>
         <div id="logos" style="text-align: center">
             <img src="https://moca.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/ocaf/agency_content/images/We%20Are%20Washington.png"
@@ -130,7 +133,7 @@
     //and setting intial map focus point
     var map = L.map('map', {
         center: [38.8929, -77.0252],
-        zoom: 12,
+        zoom: 11,
         zoomControl: false
     });
     //Create map and load basemap tile layer
@@ -174,10 +177,10 @@
              weight: 2,
              opacity: 0.8,
              color: 'blue',
-             fillOpacity: 0.0 };
+             fillOpacity: 0.3 };
       },
       onEachFeature: function (feature,layer) {
-        layer.bindPopup(feature.properties.NAME + "<br>" + "Rep. " + feature.properties.REP_NAME + "," + "<br>" + feature.properties.REP_PHONE + "<br>" + "Facts about the ward:" + "<br>" + "<img src='" + feature.properties.IMAGE + "'>" );
+        layer.bindPopup(feature.properties.NAME + "<br>" + "Rep. " + feature.properties.REP_NAME + "," + "<br>" + feature.properties.REP_PHONE + "<br>" + "<img src='" + feature.properties.IMAGE + "'>" + "<br>" + "Story from the ward: " + '"' +feature.properties.STORY + '"' + "<a href='" + feature.properties.PAGE_URL + "' target=_blank>" + " Read more." + "</a>" );
       }
     }).addTo(map);
     //open About This panel
