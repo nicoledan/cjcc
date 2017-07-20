@@ -36,7 +36,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 4, "WARD": 2, "NAME": "Ward 2", "REP_NAME": "Jack Evans", "IMAGE": "ward4.jpg", "STORY": "Recent college graduate, Matt Covert, says he feels completely safe walking the streets of his Ward 3 neighborhood.", "PAGE_URL": "ward3.html", "WEB_URL": "http://dccouncil.us/council/jack-evans", "REP_PHONE": "(202) 724-8058", "REP_EMAIL": "jevans@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 106, NW 20004", "WARD_ID": "2", "LABEL": "Ward 2", "AREASQMI": 8.68451733, "POP_2000": 63455, "POP_2010": 76645, "POP_2015": 77645, "Shape_Length": 29545.803886478952, "Shape_Area": 22492798.343956776
+            "OBJECTID": 4, "WARD": 2, "NAME": "Ward 2", "REP_NAME": "Jack Evans", "IMAGE": "ward2.jpg", "STORY": "Recent college graduate, Matt Covert, says he feels completely safe walking the streets of his Ward 3 neighborhood.", "PAGE_URL": "ward3.html", "WEB_URL": "http://dccouncil.us/council/jack-evans", "REP_PHONE": "(202) 724-8058", "REP_EMAIL": "jevans@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 106, NW 20004", "WARD_ID": "2", "LABEL": "Ward 2", "AREASQMI": 8.68451733, "POP_2000": 63455, "POP_2010": 76645, "POP_2015": 77645, "Shape_Length": 29545.803886478952, "Shape_Area": 22492798.343956776
         }
         ,
         "geometry": {
