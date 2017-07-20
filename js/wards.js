@@ -3,7 +3,7 @@ var wards = [{
     "features":[ {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 1, "WARD": 8, "NAME": "Ward 8", "REP_NAME": "Trayon White, Sr.", "IMAGE": "ward8.jpg", "STORY": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa,", "PAGE_URL": "ward8.html", "WEB_URL": "http://dccouncil.us/council/trayon-white-sr", "REP_PHONE": "(202) 724-8045", "REP_EMAIL": "twhite@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 400, NW 20004", "WARD_ID": "8", "LABEL": "Ward 8", "AREASQMI": 11.93787146, "POP_2000": 74049, "POP_2010": 73662, "POP_2015": 81133, "Shape_Length": 28714.06942975485, "Shape_Area": 30965852.455329377
+            "OBJECTID": 1, "WARD": 8, "NAME": "Ward 8", "REP_NAME": "Trayon White, Sr.", "IMAGE": "ward8.jpg", "STORY": "Antoinette Walker, an Anacostia resident for the last thirty years has personally felt the effects of crime in her ward on multiple occasions.", "PAGE_URL": "ward8.html", "WEB_URL": "http://dccouncil.us/council/trayon-white-sr", "REP_PHONE": "(202) 724-8045", "REP_EMAIL": "twhite@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 400, NW 20004", "WARD_ID": "8", "LABEL": "Ward 8", "AREASQMI": 11.93787146, "POP_2000": 74049, "POP_2010": 73662, "POP_2015": 81133, "Shape_Length": 28714.06942975485, "Shape_Area": 30965852.455329377
         }
         ,
         "geometry": {
@@ -36,7 +36,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 4, "WARD": 2, "NAME": "Ward 2", "REP_NAME": "Jack Evans", "IMAGE": "", "STORY": "Recent college graduate, Matt Covert, says he feels completely safe walking the streets of his Ward 3 neighborhood.", "PAGE_URL": "ward3.html", "WEB_URL": "http://dccouncil.us/council/jack-evans", "REP_PHONE": "(202) 724-8058", "REP_EMAIL": "jevans@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 106, NW 20004", "WARD_ID": "2", "LABEL": "Ward 2", "AREASQMI": 8.68451733, "POP_2000": 63455, "POP_2010": 76645, "POP_2015": 77645, "Shape_Length": 29545.803886478952, "Shape_Area": 22492798.343956776
+            "OBJECTID": 4, "WARD": 2, "NAME": "Ward 2", "REP_NAME": "Jack Evans", "IMAGE": "ward4.jpg", "STORY": "Recent college graduate, Matt Covert, says he feels completely safe walking the streets of his Ward 3 neighborhood.", "PAGE_URL": "ward3.html", "WEB_URL": "http://dccouncil.us/council/jack-evans", "REP_PHONE": "(202) 724-8058", "REP_EMAIL": "jevans@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 106, NW 20004", "WARD_ID": "2", "LABEL": "Ward 2", "AREASQMI": 8.68451733, "POP_2000": 63455, "POP_2010": 76645, "POP_2015": 77645, "Shape_Length": 29545.803886478952, "Shape_Area": 22492798.343956776
         }
         ,
         "geometry": {
@@ -58,7 +58,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 6, "WARD": 5, "NAME": "Ward 5", "REP_NAME": "Kenyan McDuffie", "IMAGE": "", "STORY": "Julie moved to Ward 5 from Atlanta with her family about a year ago", "PAGE_URL": "ward5.html", "WEB_URL": "http://dccouncil.us/council/kenyan-mcduffie", "REP_PHONE": "(202) 724-8028", "REP_EMAIL": "kmcduffie@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 506, NW 20004", "WARD_ID": "5", "LABEL": "Ward 5", "AREASQMI": 10.39030357, "POP_2000": 71440, "POP_2010": 74308, "POP_2015": 82049, "Shape_Length": 22893.404856466877, "Shape_Area": 26910761.21900796
+            "OBJECTID": 6, "WARD": 5, "NAME": "Ward 5", "REP_NAME": "Kenyan McDuffie", "IMAGE": "ward5.jpg", "STORY": "Julie moved to Ward 5 from Atlanta with her family about a year ago", "PAGE_URL": "ward5.html", "WEB_URL": "http://dccouncil.us/council/kenyan-mcduffie", "REP_PHONE": "(202) 724-8028", "REP_EMAIL": "kmcduffie@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 506, NW 20004", "WARD_ID": "5", "LABEL": "Ward 5", "AREASQMI": 10.39030357, "POP_2000": 71440, "POP_2010": 74308, "POP_2015": 82049, "Shape_Length": 22893.404856466877, "Shape_Area": 26910761.21900796
         }
         ,
         "geometry": {
@@ -80,7 +80,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 8, "WARD": 4, "NAME": "Ward 4", "REP_NAME": "Brandon T. Todd", "IMAGE": "", "STORY": "Recent college graduate, Matt Covert, says he feels completely safe walking the streets of his Ward 3 neighborhood.", "PAGE_URL": "ward3.html", "WEB_URL": "http://dccouncil.us/council/brandon-todd", "REP_PHONE": "(202) 724-8052", "REP_EMAIL": "btodd@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 105, NW 20004", "WARD_ID": "4", "LABEL": "Ward 4", "AREASQMI": 9.00194217, "POP_2000": 75179, "POP_2010": 75773, "POP_2015": 83066, "Shape_Length": 25130.994398230334, "Shape_Area": 23314921.968186494
+            "OBJECTID": 8, "WARD": 4, "NAME": "Ward 4", "REP_NAME": "Brandon T. Todd", "IMAGE": "ward4.jpg", "STORY": "Recent college graduate, Matt Covert, says he feels completely safe walking the streets of his Ward 3 neighborhood.", "PAGE_URL": "ward3.html", "WEB_URL": "http://dccouncil.us/council/brandon-todd", "REP_PHONE": "(202) 724-8052", "REP_EMAIL": "btodd@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 105, NW 20004", "WARD_ID": "4", "LABEL": "Ward 4", "AREASQMI": 9.00194217, "POP_2000": 75179, "POP_2010": 75773, "POP_2015": 83066, "Shape_Length": 25130.994398230334, "Shape_Area": 23314921.968186494
         }
         ,
         "geometry": {
