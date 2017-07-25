@@ -2,13 +2,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: "open_sanssemi", sans-serif;
-    background: #38538E;
+    background: #fff;
 }
 #map {
-    position: absolute;
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  padding-top: 20px;
+    /* position: absolute;
     top: 0;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
 }
 a {
     color: #fff;
@@ -31,10 +36,12 @@ a {
     padding: 15px 30px 25px 30px;
     margin: auto;
     z-index: 500;
+    width: 100%;
     background-color: rgb(12, 12, 12);
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .75);
     opacity: 0.8;
 }
+
 #about {
     padding: 10px 20px 20px 20px;
     z-index: 4000;
@@ -63,14 +70,19 @@ a {
     -webkit-overflow-scrolling: touch;
 }
 
-#wardInfo {
+
+#wardInfo, #content {
   margin: auto;
-  max-width: 800px;
+  max-width: 1000px;
   background: #fff;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  padding-top: 3px;
+  padding-top: 20px;
+}
+
+#wardTitle {
+  padding-top: 50px;
 }
 
 .graph {
@@ -80,4 +92,13 @@ a {
 
 audio {
   margin: auto;
+}
+
+iframe {
+  height: 500px;
+}
+
+.crimegraph {
+  height: 700px;
+  max-width: 1000px;
 }

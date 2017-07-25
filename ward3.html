@@ -6,66 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Ward 3</title>
-
-	<link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+
 </head>
 <body>
 <div class="container-fluid">
 
-  <div id="content">
+  <div class='header col-lg-12'>
+    <div id="title">Public Safety and Justice Report by Ward</div>
+      <div style="float:right;">
+          <a style="color:rgb(206,206,206);font-size:14px; margin-right:10px;"
+                 href="https://github.com/nicoledan/cjcc" target="_blank">This on Github</a>
+          <a style="color:rgb(206,206,206);font-size:14px;" href="index.html">Back to the Map</a>
+        <a style="color:rgb(206,206,206);font-size:14px;" href="https://planning.dc.gov/page/wards-district-columbia"> What's my ward?</a>
+      </div>
+      </div>
 
-<div class='header'>
-  <div id="title">Public Safety and Justice Report by Ward</div>
-    <div style="float:right;">
-        <a style="color:rgb(206,206,206);font-size:14px; margin-right:10px;"
-               href="https://github.com/nicoledan/cjcc" target="_blank">This on Github</a>
-        <a style="color:rgb(206,206,206);font-size:14px;" href="index.html">Back to the Map</a>
-      <a style="color:rgb(206,206,206);font-size:14px;" href="https://planning.dc.gov/page/wards-district-columbia"> What's my ward?</a>
-    </div>
-    </div>
+<div id="content">
+
+
     <div id="wardInfo">
 
-    <h1>Ward 3</h1>
+    <h1 id="wardTitle">Ward 3</h1>
+    <div class="row">
+      <div id="population" class="col-md-4">
+        <h3>Population</h3>
+        <p class="lead">83,152</p>
+      </div>
+      <div id="income" class="col-md-4">
+        <h3>Median Household Income</h3>
+        <p class="lead">$112,873</p>
+      </div>
+      <div id="poverty" class="col-md-4">
+        <h3>Poverty</h3>
+        <p class="lead">9.4%</p>
+      </div>
+    </div><!--close row for stats!-->
 
-      <img src="ward3.jpg">
-      <audio id="ward31" controls preload="auto">
-  	     <source src="audio/ward3.mp3" type="audio/mp3">
-      </audio>
-      <p>Matt Covert has been living in Ward 3 for about a year, and over the last few months, he’s become well-acquainted with the Woodley Park community. The former college student says Ward 3 is a “super safe” place to live, and that crimes committed in the area are few and far between. The neighborhood’s heavy police presence reassures him that he is protected, and he would easily recommend Woodley Park to other students looking to move to D.C. </p>
-      <h2>Graphs & Statistics</h2>
-      <h3>Race</h3>
-      <img src="graphs/ward3race.png" class="graph">
-      <h3>Demographic Statistics</h3>
-      <ul id="statistics">
-          <li>General</li>
-          <ul><li>Suburban in nature</li>
-              <li>Population has increased in this ward</li>
-              <li>Has the lowest infant mortality rate per 1,000 births</li>
-          </ul>
+    <div class="row">
+      <div id="racegraph" class="col-md-4">
+        <h3>Race</h3>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQKUvOUOW4cgCNvoSigaKkWwWrttqPQuom-YJLTM78-V9VibCF3Rk-lrLFLL_YnzMP_xoa10ioJ8ttL/pubhtml?gid=430909089&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+     </div>
+     <div id="educationgraph" class="col-md-4">
+       <h3>Education</h3>
+       <iframe src="https://docs.google.com/spreadsheets/d/1A5yjGf_SdrVbI1CgB1b1QDZFugjuq_ACRaBRaptoEaw/pubhtml?gid=975819677&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </div>
+    <div id="incomegraph" class="col-md-4">
+      <h3>Income</h3>
+    <iframe src="https://docs.google.com/spreadsheets/d/1-bjgfeRVQj4z5fEyyfO08ATvNfqV8nKswsQ4N6wUpY0/pubhtml?gid=1513227874&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </div>
+  </div> <!-- close row for demographic graphs !-->
+  <div id="violentCrimediv">
+    <iframe src="https://docs.google.com/spreadsheets/d/1wyfiTN6ZAdfHy7GMby1b8oJuQPIWxvvFS7BjVFESKpk/pubhtml?gid=1321870526&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
+  </div>
+  <div id="propertyCrimediv">
+    <iframe src="https://docs.google.com/spreadsheets/d/1dyDMosrKK-0G1sh2jjUXuotXJHeLNx1BSuz-7haLk9A/pubhtml?gid=709598058&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
+  </div>
 
-        <li>Income</li>
-            <ul><li>Avg. family income: $257,224</li></ul>
-
-        <li>Education</li>
-            <ul><li>At least 90% of Ward 3 residents have a high school diploma</li>
-                <li>85% of Ward 3 residents have a bachelor’s degree (a 1% change between 2009 2014)</li> </ul>
-
-        <li>Poverty</li>
-            <ul><li>9.6 percent poverty rate</li>
-                <li>2% children living in poverty</li>
-                <li>3% seniors living in poverty</li>
-            </ul>
+    <h2>Report</h2>
+  <ul>
+	<li>From 2009-2013, child poverty decreased.</li>
+	<li>Child poverty is at 2%.</li>
+	<li>2013 infant mortality rate: 1.7/1000, the lowest in D.C.</li>
+	<li>90% of residents had a high school diploma.</li>
+	<li>85% of ward 3 has a college degree, which is the highest in the District.</li>
+  </ul>
+  <p>From 2009 to 2014, the ward saw the following changes:</p>
+  <ul>
+	<li>Assault with a deadly weapon fell in wards 1-4 by more than 20%</li>
+	<li>Robbery decreased.</li>
+	<li>Property crime shrank by 9%</li>
 </ul>
-
-        <h3>Crime Statistics</h3>
-          <ul><li>Violent Crime</li>
-              <ul><li>Saw a decrease of over 20% of assault with a dangerous weapon</li></ul>
-              <li>Property Crime</li>
-                  <ul><li>9% decrease in property crime</li>
-                      <li>20% reduction in motor vehicle theft</li>
-                      <li>574 Theft from Auto offenses in 2014</li>
-            </ul><!-- close crime stats ul !-->
+  <p>In 2014, Ward 3 reported 574 theft from autos.</p>
 
     </div> <!-- close wardInfo !-->
 
