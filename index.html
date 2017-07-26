@@ -34,16 +34,24 @@
 <div id="content">
 
 <div class="row">
-  <div id="racegraph" class="col-lg-6">
+  <div class="col-lg-6">
     <h3>Video1</h3>
    <img src="graphs/ward3race.png" class="graph">
- </div>
- <div id="educationgraph" class="col-lg-6">
+  </div>
+  <div class="col-lg-6">
    <h3>Video2</h3>
    <img src="graphs/ward3race.png" class="graph">
-</div>
+ </div>
 </div> <!--close row !-->
 
+<h2>Violent Crime</h2>
+  <iframe src="https://docs.google.com/spreadsheets/d/1aQeslQDb20clr9Res_ZQB9j2w0v-xXU0xY_b0ddFL9I/pubhtml?gid=1479740516&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
+  <iframe src="https://docs.google.com/spreadsheets/d/1aQeslQDb20clr9Res_ZQB9j2w0v-xXU0xY_b0ddFL9I/pubhtml?gid=1733029272&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
+<h2>Property Crime</h2>
+  <iframe src="https://docs.google.com/spreadsheets/d/1aQeslQDb20clr9Res_ZQB9j2w0v-xXU0xY_b0ddFL9I/pubhtml?gid=72402530&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
+  <iframe src="https://docs.google.com/spreadsheets/d/1aQeslQDb20clr9Res_ZQB9j2w0v-xXU0xY_b0ddFL9I/pubhtml?gid=1793247341&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
+
+<h2>Report</h2>
 </div> <!-- close content !-->
 
 <div id="about">
@@ -134,7 +142,7 @@
              fillOpacity: 0.3 };
       },
       onEachFeature: function (feature,layer) {
-        layer.bindPopup(feature.properties.NAME + "<br>" + "Rep. " + feature.properties.REP_NAME + "," + "<br>" + feature.properties.REP_PHONE + "<br>" + "<img src='" + feature.properties.IMAGE + "'>" + "<br>" + "Story from the ward: " + '"' +feature.properties.STORY + '"' + "<a href='" + feature.properties.PAGE_URL + "' target=_blank>" + " Read more." + "</a>" );
+        layer.bindPopup(feature.properties.NAME + "<br>" + "Rep. " + feature.properties.REP_NAME + "," + "<br>" + feature.properties.REP_PHONE + "<br>" + "<a href='" + feature.properties.PAGE_URL + "' target=_blank>" + "Learn more about this ward." + "</a>" );
       }
     }).addTo(map);
     //open About This panel

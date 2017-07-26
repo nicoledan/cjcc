@@ -15,6 +15,7 @@ body {
     bottom: 0;
     width: 100%; */
 }
+
 a {
     color: #fff;
     font-family: 'open_sansregular', sans-serif;
@@ -36,12 +37,10 @@ a {
     padding: 15px 30px 25px 30px;
     margin: auto;
     z-index: 500;
-    width: 100%;
     background-color: rgb(12, 12, 12);
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .75);
     opacity: 0.8;
 }
-
 #about {
     padding: 10px 20px 20px 20px;
     z-index: 4000;
@@ -70,7 +69,6 @@ a {
     -webkit-overflow-scrolling: touch;
 }
 
-
 #wardInfo, #content {
   margin: auto;
   max-width: 1000px;
@@ -78,11 +76,7 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-#wardTitle {
-  padding-top: 50px;
+  padding-top: 3px;
 }
 
 .graph {
@@ -94,11 +88,39 @@ audio {
   margin: auto;
 }
 
+#racegraph {
+  height: 500px;
+}
+
 iframe {
   height: 500px;
 }
 
+h2 {
+  padding-top: 20px;
+}
+
 .crimegraph {
-  height: 700px;
-  max-width: 1000px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  #content {
+    max-width: 600px;
+  }
+  #video {
+    margin: auto;
+    max-width: 300px;
+  }
+  iframe {
+    width: 500px;
+    height: 330px;
+  }
+}
+
+@media (max-width: 700px) {
+  iframe {
+    width: 350px;
+    height: 200px;
+  }
 }

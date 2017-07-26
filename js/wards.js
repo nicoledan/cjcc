@@ -3,7 +3,7 @@ var wards = [{
     "features":[ {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 1, "WARD": 8, "NAME": "Ward 8", "REP_NAME": "Trayon White, Sr.", "IMAGE": "ward8.jpg", "STORY": "Antoinette Walker, an Anacostia resident for the last thirty years has personally felt the effects of crime in her ward on multiple occasions.", "PAGE_URL": "ward8.html", "WEB_URL": "http://dccouncil.us/council/trayon-white-sr", "REP_PHONE": "(202) 724-8045", "REP_EMAIL": "twhite@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 400, NW 20004", "WARD_ID": "8", "LABEL": "Ward 8", "AREASQMI": 11.93787146, "POP_2000": 74049, "POP_2010": 73662, "POP_2015": 81133, "Shape_Length": 28714.06942975485, "Shape_Area": 30965852.455329377
+            "OBJECTID": 1, "WARD": 8, "NAME": "Ward 8", "REP_NAME": "Trayon White, Sr.", "PAGE_URL": "ward8.html", "WEB_URL": "http://dccouncil.us/council/trayon-white-sr", "REP_PHONE": "(202) 724-8045", "REP_EMAIL": "twhite@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 400, NW 20004", "WARD_ID": "8", "LABEL": "Ward 8", "AREASQMI": 11.93787146, "POP_2000": 74049, "POP_2010": 73662, "POP_2015": 81133, "Shape_Length": 28714.06942975485, "Shape_Area": 30965852.455329377
         }
         ,
         "geometry": {
@@ -14,7 +14,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 2, "WARD": 6, "NAME": "Ward 6", "REP_NAME": "Charles Allen", "IMAGE": "ward6.jpg", "STORY": "Alan, a resident in the Capitol Hill neighborhood, says he was attacked and mugged 7 years ago on his way home from a local bank.", "PAGE_URL": "ward6.html", "WEB_URL": "http://dccouncil.us/council/charles-allen", "REP_PHONE": "(202) 724-8072", "REP_EMAIL": "callen@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 406, NW 20004", "WARD_ID": "6", "LABEL": "Ward 6", "AREASQMI": 6.22104529, "POP_2000": 70867, "POP_2010": 76238, "POP_2015": 84290, "Shape_Length": 24157.977434739707, "Shape_Area": 16064916.722161528
+            "OBJECTID": 2, "WARD": 6, "NAME": "Ward 6", "REP_NAME": "Charles Allen", "PAGE_URL": "ward6.html", "WEB_URL": "http://dccouncil.us/council/charles-allen", "REP_PHONE": "(202) 724-8072", "REP_EMAIL": "callen@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 406, NW 20004", "WARD_ID": "6", "LABEL": "Ward 6", "AREASQMI": 6.22104529, "POP_2000": 70867, "POP_2010": 76238, "POP_2015": 84290, "Shape_Length": 24157.977434739707, "Shape_Area": 16064916.722161528
         }
         ,
         "geometry": {
@@ -25,7 +25,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 3, "WARD": 7, "NAME": "Ward 7", "REP_NAME": "Vincent Gray", "IMAGE": "ward7.jpg", "STORY": "Lashauntya Moore-Reynolds, resident of Dupont Park, says her family has been exposed to both car theft and prostitution in the neighborhood.", "PAGE_URL": "ward7.html", "WEB_URL": "http://dccouncil.us/council/vincent-gray", "REP_PHONE": "(202) 724-8068", "REP_EMAIL": "vgray@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 406, NW 20004", "WARD_ID": "7", "LABEL": "Ward 7", "AREASQMI": 8.80991425, "POP_2000": 69987, "POP_2010": 71748, "POP_2015": 73290, "Shape_Length": 22345.226916542975, "Shape_Area": 22818182.556561314
+            "OBJECTID": 3, "WARD": 7, "NAME": "Ward 7", "REP_NAME": "Vincent Gray", "PAGE_URL": "ward7.html", "WEB_URL": "http://dccouncil.us/council/vincent-gray", "REP_PHONE": "(202) 724-8068", "REP_EMAIL": "vgray@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 406, NW 20004", "WARD_ID": "7", "LABEL": "Ward 7", "AREASQMI": 8.80991425, "POP_2000": 69987, "POP_2010": 71748, "POP_2015": 73290, "Shape_Length": 22345.226916542975, "Shape_Area": 22818182.556561314
         }
         ,
         "geometry": {
@@ -36,7 +36,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 4, "WARD": 2, "NAME": "Ward 2", "REP_NAME": "Jack Evans", "IMAGE": "ward2.jpg", "STORY": "Recent college graduate, Matt Covert, says he feels completely safe walking the streets of his Ward 3 neighborhood.", "PAGE_URL": "ward3.html", "WEB_URL": "http://dccouncil.us/council/jack-evans", "REP_PHONE": "(202) 724-8058", "REP_EMAIL": "jevans@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 106, NW 20004", "WARD_ID": "2", "LABEL": "Ward 2", "AREASQMI": 8.68451733, "POP_2000": 63455, "POP_2010": 76645, "POP_2015": 77645, "Shape_Length": 29545.803886478952, "Shape_Area": 22492798.343956776
+            "OBJECTID": 4, "WARD": 2, "NAME": "Ward 2", "REP_NAME": "Jack Evans", "PAGE_URL": "ward2.html", "WEB_URL": "http://dccouncil.us/council/jack-evans", "REP_PHONE": "(202) 724-8058", "REP_EMAIL": "jevans@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 106, NW 20004", "WARD_ID": "2", "LABEL": "Ward 2", "AREASQMI": 8.68451733, "POP_2000": 63455, "POP_2010": 76645, "POP_2015": 77645, "Shape_Length": 29545.803886478952, "Shape_Area": 22492798.343956776
         }
         ,
         "geometry": {
@@ -47,7 +47,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 5, "WARD": 1, "NAME": "Ward 1", "REP_NAME": "Brianne Nadeau", "IMAGE": "ward1.jpg", "STORY": "Virginia Ali, owner of Ben’s Chili Bowl since 1958, “I think crime is a lot more reduced than it used to be.”", "PAGE_URL": "ward1.html", "WEB_URL": "http://dccouncil.us/council/brianne-nadeau", "REP_PHONE": "(202) 724-8181", "REP_EMAIL": "bnadeau@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 102, NW 20004", "WARD_ID": "1", "LABEL": "Ward 1", "AREASQMI": 2.53589614, "POP_2000": 71747, "POP_2010": 74462, "POP_2015": 82859, "Shape_Length": 12925.384774394472, "Shape_Area": 6567940.963176496
+            "OBJECTID": 5, "WARD": 1, "NAME": "Ward 1", "REP_NAME": "Brianne Nadeau", "PAGE_URL": "ward1.html", "WEB_URL": "http://dccouncil.us/council/brianne-nadeau", "REP_PHONE": "(202) 724-8181", "REP_EMAIL": "bnadeau@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 102, NW 20004", "WARD_ID": "1", "LABEL": "Ward 1", "AREASQMI": 2.53589614, "POP_2000": 71747, "POP_2010": 74462, "POP_2015": 82859, "Shape_Length": 12925.384774394472, "Shape_Area": 6567940.963176496
         }
         ,
         "geometry": {
@@ -58,7 +58,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 6, "WARD": 5, "NAME": "Ward 5", "REP_NAME": "Kenyan McDuffie", "IMAGE": "ward5.jpg", "STORY": "Julie moved to Ward 5 from Atlanta with her family about a year ago", "PAGE_URL": "ward5.html", "WEB_URL": "http://dccouncil.us/council/kenyan-mcduffie", "REP_PHONE": "(202) 724-8028", "REP_EMAIL": "kmcduffie@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 506, NW 20004", "WARD_ID": "5", "LABEL": "Ward 5", "AREASQMI": 10.39030357, "POP_2000": 71440, "POP_2010": 74308, "POP_2015": 82049, "Shape_Length": 22893.404856466877, "Shape_Area": 26910761.21900796
+            "OBJECTID": 6, "WARD": 5, "NAME": "Ward 5", "REP_NAME": "Kenyan McDuffie", "PAGE_URL": "ward5.html", "WEB_URL": "http://dccouncil.us/council/kenyan-mcduffie", "REP_PHONE": "(202) 724-8028", "REP_EMAIL": "kmcduffie@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 506, NW 20004", "WARD_ID": "5", "LABEL": "Ward 5", "AREASQMI": 10.39030357, "POP_2000": 71440, "POP_2010": 74308, "POP_2015": 82049, "Shape_Length": 22893.404856466877, "Shape_Area": 26910761.21900796
         }
         ,
         "geometry": {
@@ -69,7 +69,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 7, "WARD": 3, "NAME": "Ward 3", "REP_NAME": "Mary M. Cheh", "IMAGE": "ward3.jpg", "STORY": "Recent college graduate, Matt Covert, says he feels completely safe walking the streets of his Ward 3 neighborhood.", "PAGE_URL": "ward3.html", "WEB_URL": "http://dccouncil.us/council/mary-m.-cheh", "REP_PHONE": "(202) 724-8062", "REP_EMAIL": "mcheh@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 108, NW 20004", "WARD_ID": "3", "LABEL": "Ward 3", "AREASQMI": 10.93471274, "POP_2000": 75335, "POP_2010": 78887, "POP_2015": 83152, "Shape_Length": 28342.167313250713, "Shape_Area": 28320779.70884481
+            "OBJECTID": 7, "WARD": 3, "NAME": "Ward 3", "REP_NAME": "Mary M. Cheh", "PAGE_URL": "ward3.html", "WEB_URL": "http://dccouncil.us/council/mary-m.-cheh", "REP_PHONE": "(202) 724-8062", "REP_EMAIL": "mcheh@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 108, NW 20004", "WARD_ID": "3", "LABEL": "Ward 3", "AREASQMI": 10.93471274, "POP_2000": 75335, "POP_2010": 78887, "POP_2015": 83152, "Shape_Length": 28342.167313250713, "Shape_Area": 28320779.70884481
         }
         ,
         "geometry": {
@@ -80,7 +80,7 @@ var wards = [{
     {
         "type":"Feature",
         "properties": {
-            "OBJECTID": 8, "WARD": 4, "NAME": "Ward 4", "REP_NAME": "Brandon T. Todd", "IMAGE": "ward4.jpg", "STORY": "Recent college graduate, Matt Covert, says he feels completely safe walking the streets of his Ward 3 neighborhood.", "PAGE_URL": "ward3.html", "WEB_URL": "http://dccouncil.us/council/brandon-todd", "REP_PHONE": "(202) 724-8052", "REP_EMAIL": "btodd@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 105, NW 20004", "WARD_ID": "4", "LABEL": "Ward 4", "AREASQMI": 9.00194217, "POP_2000": 75179, "POP_2010": 75773, "POP_2015": 83066, "Shape_Length": 25130.994398230334, "Shape_Area": 23314921.968186494
+            "OBJECTID": 8, "WARD": 4, "NAME": "Ward 4", "REP_NAME": "Brandon T. Todd", "PAGE_URL": "ward4.html", "WEB_URL": "http://dccouncil.us/council/brandon-todd", "REP_PHONE": "(202) 724-8052", "REP_EMAIL": "btodd@dccouncil.us", "REP_OFFICE": "1350 Pennsylvania Ave, Suite 105, NW 20004", "WARD_ID": "4", "LABEL": "Ward 4", "AREASQMI": 9.00194217, "POP_2000": 75179, "POP_2010": 75773, "POP_2015": 83066, "Shape_Length": 25130.994398230334, "Shape_Area": 23314921.968186494
         }
         ,
         "geometry": {
