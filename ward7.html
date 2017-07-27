@@ -11,77 +11,92 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container-fluid">
+  <div class="container-fluid">
 
-  <div id="content">
+    <div class='header col-lg-12'>
+      <div id="title">Public Safety and Justice Report by Ward</div>
+        <div style="float:right;">
+            <a style="color:rgb(206,206,206);font-size:14px; margin-right:10px;"
+                   href="https://github.com/nicoledan/cjcc" target="_blank">This on Github</a>
+            <a style="color:rgb(206,206,206);font-size:14px;" href="index.html">Back to the Map</a>
+          <a style="color:rgb(206,206,206);font-size:14px;" href="https://planning.dc.gov/page/wards-district-columbia"> What's my ward?</a>
+        </div>
+        </div>
 
-<div class='header'>
-  <div id="title">Public Safety and Justice Report by Ward</div>
-    <div style="float:right;">
-        <a style="color:rgb(206,206,206);font-size:14px; margin-right:10px;"
-               href="https://github.com/nicoledan/cjcc" target="_blank">This on Github</a>
-        <a style="color:rgb(206,206,206);font-size:14px;" href="index.html">Back to the Map</a>
-      <a style="color:rgb(206,206,206);font-size:14px;" href="https://planning.dc.gov/page/wards-district-columbia"> What's my ward?</a>
+    <div id="content">
+
+      <div id="wardInfo">
+
+      <h1 id="wardtitle">Ward 7</h1>
+      <div class="row">
+        <div id="population" class="col-md-4">
+          <h3>Population</h3>
+          <p class="lead">73,290</p>
+        </div>
+        <div id="income" class="col-md-4">
+          <h3>Median Household Income</h3>
+          <p class="lead">$39,165</p>
+        </div>
+        <div id="poverty" class="col-md-4">
+          <h3>Poverty</h3>
+          <p class="lead">27.2%</p>
+        </div>
+      </div><!--close row for stats!-->
+
+      <div class="row">
+        <div id="racegraph" class="col-md-4">
+          <h3>Race</h3>
+          <iframe src="https://docs.google.com/spreadsheets/d/1a_lAOObY5yvAA_6QHzedXEr_rpx87NXTU03G5AF59Yw/pubhtml?gid=1309540816&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+       </div>
+       <div id="educationgraph" class="col-md-4">
+         <h3>Education</h3>
+         <iframe src="https://docs.google.com/spreadsheets/d/1A5yjGf_SdrVbI1CgB1b1QDZFugjuq_ACRaBRaptoEaw/pubhtml?gid=889817428&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+      </div>
+      <div id="incomegraph" class="col-md-4">
+        <h3>Income</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1A5yjGf_SdrVbI1CgB1b1QDZFugjuq_ACRaBRaptoEaw/pubhtml?gid=889817428&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </div> <!-- close row for demographic graphs !-->
+
+    <div id="violentCrimediv">
+      <h3>Violent Crime</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1wyfiTN6ZAdfHy7GMby1b8oJuQPIWxvvFS7BjVFESKpk/pubhtml?gid=1952214831&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
     </div>
+    <div id="propertyCrimediv">
+      <h3>Property Crime</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1dyDMosrKK-0G1sh2jjUXuotXJHeLNx1BSuz-7haLk9A/pubhtml?gid=602357163&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
     </div>
-    <div id="wardInfo">
 
-    <h1>Ward 7</h1>
-
-      <img src="images/ward7.jpg">
-      <audio id="ward7" controls preload="auto">
-  	     <source src="audio/ward7.mp3" type="audio/mp3">
-      </audio>
-      <p>Lashauntya Moore-Reynolds, resident of Dupont Park, says her family has been exposed to both car theft and prostitution. Her family moved to the neighborhood 5 years ago and encountered a recurring problem of someone trying to break into their car at night. Since that specific incident, Lashauntya says her family hasn’t seen crime in the neighborhood aside from alleged prostitution on nearby street corners. </p>
-      <h2>Graphs & Statistics</h2>
-      <h3>Race</h3>
-      <img src="graphs/ward7race.png" class="graph">
-      <h3>Demographic Statistics</h3>
-      <ul id="statistics">
-        <li>General</li>
-          <ul><li>10% population decrease</li>
-              <li>In 2013, the infant mortality per 1,000 live births was highest in Ward 5, Ward 8, and Ward 7</li>
-            </ul>
-
-        <li>Income</li>
-            <ul><li>$46,717</li>
-            <li>65% of ward residents employed (either full or part time)</li>
-            </ul>
-
-        <li>Education</li>
-            <ul><li>82% have a high school degree</li>
-                <li>17% of ward residents have a bachelor's degree or greater</li>
-                 </ul>
-
-        <li>Poverty</li>
-          <ul><li>40% of children in ward under 18 live in poverty</li></ul>
-
+        <h3>Report</h3>
+        <ul>
+        	<li>Population did not grow in Ward 7.</li>
+        	<li>The average household income in wards 7 and 8 was $46,717.</li>
+        	<li>From 2009-2013, child poverty grew to 40%.</li>
+        	<li>The 2013 infant mortality rate per 1,000 live births was 10.9, among the highest in the District.</li>
+        	<li> In 2013, 79% of Ward 7 residents had a high school diploma.</li>
+        	<li>12% of Ward 7 residents have a college degree. 65% of Ward 7 has a job.</li>
         </ul>
-
-        <h3>Crime Statistics</h3>
-          <ul><li>Violent Crime</li>
-              <ul><li>45% of District-wide violent crime in 2014 (10% increase)</li>
-                <li>28% of increase in violent crime overall</li>
-                <li>In 2014: 1,467 offenses reported</li>
-                <li>71% of the District's homicides</li>
-                <li>27% increase in ADW's</li>
-                <li>Number of reported ADW's: 631 (more than twice average of 299)</li>
-                <li>22% increase in reported robberies from 2009-2014</li>
-                <li>752 robberies</li>
-                <li>164% increase in Ward 7 in reported sexual offenses (58)</li>
-              </ul>
-              <li>Property Crime</li>
-                  <ul><li>476 burglaries</li>
-                      <li>814 MVTs in 2014</li>
-                      <li>107% increase overall in property crime</li>
-                  </ul>
-            </ul><!-- close crime stats ul !-->
-
-    </div> <!-- close wardInfo !-->
+        <p>Violent Crime in Ward 7</p>
+        <ul>
+	<li>Wards 7 and 8 made up 45% of District’s violent crime in 2014, which is up from 35% in 2009.</li>
+	<li>Ward 7’s violent crime increased 28%, and accounted from 24% of all violent crime in the District, up from 16% in 2009.</li>
+	<li>In 2014, Ward 7 reported 1,467 violent crimes.</li>
+	<li>71% of homicides were in Wards 5,7, and 8. Ward 7 saw ADW increase by 27%. Ward 7 reported 631 ADWs in 2014.</li>
+	<li>Ward 7 reported a growth of 164% in reported sexual crimes.</li>
+	<li>Ward 7 reported 58 sexual crimes.</li>
+</ul>
+        <p>Property Crime in Ward 7</p>
+        <ul>
+	<li>Robbery rose 22% from 2009-2014.</li>
+	<li>Ward 7 reported 476 burglaries.</li>
+	<li>In 2014, Ward 7 reported 752 robberies.</li>
+	<li>Ward 7 reported 814 motor vehicle thefts.</li>
+	<li>Theft grew by 107%.</li>
+</ul>
+      </div> <!-- close wardInfo !-->
 
 
+    </div>
   </div>
-</div>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/script.js"></script>

@@ -11,65 +11,82 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container-fluid">
+  <div class="container-fluid">
 
-  <div id="content">
+    <div class='header col-lg-12'>
+      <div id="title">Public Safety and Justice Report by Ward</div>
+        <div style="float:right;">
+            <a style="color:rgb(206,206,206);font-size:14px; margin-right:10px;"
+                   href="https://github.com/nicoledan/cjcc" target="_blank">This on Github</a>
+            <a style="color:rgb(206,206,206);font-size:14px;" href="index.html">Back to the Map</a>
+          <a style="color:rgb(206,206,206);font-size:14px;" href="https://planning.dc.gov/page/wards-district-columbia"> What's my ward?</a>
+        </div>
+        </div>
 
-<div class='header'>
-  <div id="title">Public Safety and Justice Report by Ward</div>
-    <div style="float:right;">
-        <a style="color:rgb(206,206,206);font-size:14px; margin-right:10px;"
-               href="https://github.com/nicoledan/cjcc" target="_blank">This on Github</a>
-        <a style="color:rgb(206,206,206);font-size:14px;" href="index.html">Back to the Map</a>
-      <a style="color:rgb(206,206,206);font-size:14px;" href="https://planning.dc.gov/page/wards-district-columbia"> What's my ward?</a>
+    <div id="content">
+
+      <div id="wardInfo">
+
+      <h1 id="wardtitle">Ward 6</h1>
+      <div class="row">
+        <div id="population" class="col-md-4">
+          <h3>Population</h3>
+          <p class="lead">84,290</p>
+        </div>
+        <div id="income" class="col-md-4">
+          <h3>Median Household Income</h3>
+          <p class="lead">$94,343</p>
+        </div>
+        <div id="poverty" class="col-md-4">
+          <h3>Poverty</h3>
+          <p class="lead">12.6%</p>
+        </div>
+      </div><!--close row for stats!-->
+
+      <div class="row">
+        <div id="racegraph" class="col-md-4">
+          <h3>Race</h3>
+          <iframe src="https://docs.google.com/spreadsheets/d/1a_lAOObY5yvAA_6QHzedXEr_rpx87NXTU03G5AF59Yw/pubhtml?gid=1778530003&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+       </div>
+       <div id="educationgraph" class="col-md-4">
+         <h3>Education</h3>
+         <iframe src="https://docs.google.com/spreadsheets/d/1A5yjGf_SdrVbI1CgB1b1QDZFugjuq_ACRaBRaptoEaw/pubhtml?gid=1773715819&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+      </div>
+      <div id="incomegraph" class="col-md-4">
+        <h3>Income</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1-bjgfeRVQj4z5fEyyfO08ATvNfqV8nKswsQ4N6wUpY0/pubhtml?gid=1606531180&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </div> <!-- close row for demographic graphs !-->
+
+    <div id="violentCrimediv">
+      <h3>Violent Crime</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1wyfiTN6ZAdfHy7GMby1b8oJuQPIWxvvFS7BjVFESKpk/pubhtml?gid=172200201&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
     </div>
+    <div id="propertyCrimediv">
+      <h3>Property Crime</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1dyDMosrKK-0G1sh2jjUXuotXJHeLNx1BSuz-7haLk9A/pubhtml?gid=1934941196&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
     </div>
-    <div id="wardInfo">
 
-    <h1>Ward 6</h1>
+        <h3>Report</h3>
+        <ul>
+      	<li>From 2009-2013, child poverty decreased.</li>
+      </ul>
+      <p>Education in Ward 6:</p>
+      <ul>
+      	<li>90% of residents had a high school diploma.</li>
+      </ul>
+      <p>Property Crime in Ward 6:</p>
+      <ul>
+      	<li>Robbery decreased.</li>
+      	<li>Theft grew by 88%.</li>
+      	<li>Ward 6 reported among the highest number of property crimes in the District.</li>
+      	<li>Ward 6 reported 5,280 property crimes.</li>
+      </ul>
 
-      <img src="images/ward6.jpg">
-      <audio id="ward6" controls preload="auto">
-  	     <source src="audio/ward6.mp3" type="audio/mp3">
-      </audio>
-      <p>Alan, a resident in the Capitol Hill neighborhood, says he was attacked and mugged 7 years ago on his way home from a local bank. Alan was biking home when he was approached by two teenagers, both of whom broke his jaw, stole his wallet, and attempted to steal his bike. Aside from this incident, Alan says his neighborhood has been a safe place to live and feels that local police are quick to respond. He also says that his family’s encounters with crime in the neighborhood have been “mostly in the past,”  including car theft, which Alan says has lessened since he and his wife moved to Capitol Hill 20 years ago. </p>
-      <h2>Graphs & Statistics</h2>
-      <h3>Race</h3>
-      <img src="graphs/ward6race.png" class="graph">
-      <h3>Demographic Statistics</h3>
-      <ul id="statistics">
-
-        <li>Income</li>
-            <ul><li>Average family income 2011 to 2015: $140,853 </li>
-            <li>81% employment rating</li>
-            <li>The average amount of people on food stamps: 15,155</li>
-            </ul>
-
-        <li>Education</li>
-            <ul><li>90% of residents obtaining at least a high school education</li>
-                <li>Percentage of people with a bachelor's degree or higher increased by 4%</li>
-                 </ul>
-        <li>Poverty</li>
-          <ul><li>From 2011 to 2015, poverty rate was 17%</li></ul>
-
-        </ul>
-
-        <h3>Crime Statistics</h3>
-          <ul><li>Violent Crime</li>
-              <ul><li>Naval Yard Shooting - 2013</li>
-                <li>Responsible for 12-14% of violent crime in DC</li>
-              </ul>
-              <li>Property Crime</li>
-                  <ul><li>Highest amounts of property crimes: 5,280 offenses</li>
-                      <li>Ward 6 saw an increase in theft</li>
-                  </ul>
-            </ul><!-- close crime stats ul !-->
-
-    </div> <!-- close wardInfo !-->
+      </div> <!-- close wardInfo !-->
 
 
+    </div>
   </div>
-</div>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/script.js"></script>

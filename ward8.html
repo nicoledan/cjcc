@@ -11,72 +11,92 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container-fluid">
+  <div class="container-fluid">
 
-  <div id="content">
+    <div class='header col-lg-12'>
+      <div id="title">Public Safety and Justice Report by Ward</div>
+        <div style="float:right;">
+            <a style="color:rgb(206,206,206);font-size:14px; margin-right:10px;"
+                   href="https://github.com/nicoledan/cjcc" target="_blank">This on Github</a>
+            <a style="color:rgb(206,206,206);font-size:14px;" href="index.html">Back to the Map</a>
+          <a style="color:rgb(206,206,206);font-size:14px;" href="https://planning.dc.gov/page/wards-district-columbia"> What's my ward?</a>
+        </div>
+        </div>
 
-<div class='header'>
-  <div id="title">Public Safety and Justice Report by Ward</div>
-    <div style="float:right;">
-        <a style="color:rgb(206,206,206);font-size:14px; margin-right:10px;"
-               href="https://github.com/nicoledan/cjcc" target="_blank">This on Github</a>
-        <a style="color:rgb(206,206,206);font-size:14px;" href="index.html">Back to the Map</a>
-      <a style="color:rgb(206,206,206);font-size:14px;" href="https://planning.dc.gov/page/wards-district-columbia"> What's my ward?</a>
+    <div id="content">
+
+      <div id="wardInfo">
+
+      <h1 id="wardtitle">Ward 8</h1>
+      <div class="row">
+        <div id="population" class="col-md-4">
+          <h3>Population</h3>
+          <p class="lead">81,133</p>
+        </div>
+        <div id="income" class="col-md-4">
+          <h3>Median Household Income</h3>
+          <p class="lead">$30,910</p>
+        </div>
+        <div id="poverty" class="col-md-4">
+          <h3>Poverty</h3>
+          <p class="lead">37.7%</p>
+        </div>
+      </div><!--close row for stats!-->
+
+      <div class="row">
+        <div id="racegraph" class="col-md-4">
+          <h3>Race</h3>
+          <iframe src="https://docs.google.com/spreadsheets/d/1a_lAOObY5yvAA_6QHzedXEr_rpx87NXTU03G5AF59Yw/pubhtml?gid=1002148057&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+       </div>
+       <div id="educationgraph" class="col-md-4">
+         <h3>Education</h3>
+         <iframe src="https://docs.google.com/spreadsheets/d/1A5yjGf_SdrVbI1CgB1b1QDZFugjuq_ACRaBRaptoEaw/pubhtml?gid=1835421376&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+      </div>
+      <div id="incomegraph" class="col-md-4">
+        <h3>Income</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1-bjgfeRVQj4z5fEyyfO08ATvNfqV8nKswsQ4N6wUpY0/pubhtml?gid=1438945421&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </div> <!-- close row for demographic graphs !-->
+
+    <div id="violentCrimediv">
+      <h3>Violent Crime</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1wyfiTN6ZAdfHy7GMby1b8oJuQPIWxvvFS7BjVFESKpk/pubhtml?gid=1565792464&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
     </div>
+    <div id="propertyCrimediv">
+      <h3>Property Crime</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1dyDMosrKK-0G1sh2jjUXuotXJHeLNx1BSuz-7haLk9A/pubhtml?gid=173777318&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
     </div>
-    <div id="wardInfo">
 
-    <h1>Ward 8</h1>
-
-      <img src="images/ward8.jpg">
-      <audio id="ward7" controls preload="auto">
-  	     <source src="audio/ward8.mp3" type="audio/mp3">
-      </audio>
-      <p>Walker has seen a tremendous amount of crime since living in Ward 8 over the last few decades. She says that around five or six people were dying everyday in her ward during the 1980s and although crime she says has significantly improved,  it still isn’t great. In 2014 Walker’s son was shot just a block away from where she lived. Her son just happened to be at the wrong place at the wrong time and was struck in the back by a bullet from a random shooting. Luckily he survived, but Antoinette still fears for her safety in her own community. </p>
-      <h2>Graphs & Statistics</h2>
-      <h3>Race</h3>
-      <img src="graphs/ward8race.png" class="graph">
-      <h3>Demographic Statistics</h3>
-      <ul id="statistics">
-        <li>General</li>
-          <ul><li>Population (2010): 73,662</li>
-              <li>In 2013, the infant mortality rate per 1,000 in Ward 8 was 10.9%</li>
-            </ul>
-
-        <li>Income</li>
-            <ul><li>Average household income: $46,615</li>
-            <li>65% of ward residents employed (either full or part time)</li>
-            </ul>
-
-        <li>Education</li>
-            <ul><li>High school diploma: 79%</li>
-                <li>Bachelor's degree or higher</li>
-                 </ul>
-
-        <li>Poverty</li>
-          <ul><li>increased 3%</li></ul>
-        </ul>
-
-        <h3>Crime Statistics</h3>
-          <ul><li>Violent Crime</li>
-              <ul><li>8% reduction in violent crime</li>
-                <li>Represent 45% of District-wide violent crime in 2014 (Wards 7 and 8)</li>
-                <li>ADWs: 606 (twice the District Ward Average of 299)</li>
-                <li>560 robberies</li>
-                <li>61 sexual abuse offense</li>
-              </ul>
-              <li>Property Crime</li>
-                  <ul><li>6% decrease</li>
-                      <li>4% increase in burglary</li>
-                      <li>52% decrease of motor vehicle theft</li>
-                  </ul>
-            </ul><!-- close crime stats ul !-->
-
-    </div> <!-- close wardInfo !-->
+        <h3>Report</h3>
+        <ul>
+  	<li>Ward 8 has the lowest average household income, at $42,615.</li>
+  	<li>From 2009-2013, child poverty grew to 51%.</li>
+  	<li>The 2013 infant mortality rate per 1,000 live births was 9.7, among the highest in the district.</li>
+  	<li>In 2013, 82% of Ward 8 residents had a high school diploma.</li>
+  	<li>17% of ward 8 residents have a college degree.</li>
+  	<li>58% of Ward 8 has a job.</li>
+  </ul>
+        <p>Violent Crime in Ward 8</p>
+        <ul>
+	<li>Wards 7 and 8 made up 45% of District’s violent crime in 2014, which is up from 35% in 2009.  </li>
+	<li>In 2014, Ward 8 reported 1,262 violent crimes.</li>
+	<li>71% of homicides were in Wards 5,7, and 8.</li>
+	<li>Ward 8 reported 61 sexual crimes.</li>
+</ul>
+        <p>Property Crime in Ward 8</p>
+        <ul>
+    	<li>Robbery decreased.</li>
+    	<li>In 2014, Ward 8 reported 560 robberies.</li>
+    	<li>Burglary grew by 4%.</li>
+    	<li>Ward 8 reported 598 burglaries.</li>
+    	<li>Ward 8’s property crime reports shrank by 6%.</li>
+    	<li>Motor vehicle theft fell by 52%.</li>
+    	<li>Ward 8 reported 606 ADWs in 2014.</li>
+    </ul>
+      </div> <!-- close wardInfo !-->
 
 
+    </div>
   </div>
-</div>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/script.js"></script>
