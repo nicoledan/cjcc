@@ -26,54 +26,58 @@
     </div>
     <div id="wardInfo">
 
-    <h1>Ward 1</h1>
+    <h1 id="wardtitle">Ward 1</h1>
+    <div class="row">
+      <div id="population" class="col-md-4">
+        <h3>Population</h3>
+        <p class="lead">82,859</p>
+      </div>
+      <div id="income" class="col-md-4">
+        <h3>Median Household Income</h3>
+        <p class="lead">$82,159</p>
+      </div>
+      <div id="poverty" class="col-md-4">
+        <h3>Poverty</h3>
+        <p class="lead">13.5%</p>
+      </div>
+    </div><!--close row for stats!-->
 
-      <img src="images/ward1.jpg">
-      <audio id="ward31" controls preload="auto">
-  	     <source src="audio/ward1.mp3" type="audio/mp3">
-      </audio>
-      <p>Virginia Ali, owner of Ben’s Chili Bowl since 1958, “I think crime is a lot more reduced than it used to be.” “I was here when this beautiful neighborhood of ours became a ghetto…with drugs, heroin and crack and lots and lots of crime.”  “It was a very difficult time...that’s changed in recent years but it’s much much better now.”  </p>
-      <h2>Graphs & Statistics</h2>
-      <h3>Race</h3>
-      <img src="graphs/ward1race.png" class="graph">
-      <h3>Demographic Statistics</h3>
-      <ul id="statistics">
-          <li>General</li>
-          <ul><li>Population increased</li>
-              <li>One of the district's most diverse wards in 2013</li>
-          </ul>
+    <div class="row">
+      <div id="racegraph" class="col-md-4">
+        <h3>Race</h3>
+        <iframe src="https://docs.google.com/spreadsheets/d/1a_lAOObY5yvAA_6QHzedXEr_rpx87NXTU03G5AF59Yw/pubhtml?gid=1367821310&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+     </div>
+     <div id="educationgraph" class="col-md-4">
+       <h3>Education</h3>
+       <iframe src="https://docs.google.com/spreadsheets/d/1A5yjGf_SdrVbI1CgB1b1QDZFugjuq_ACRaBRaptoEaw/pubhtml?gid=1030736017&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </div>
+    <div id="incomegraph" class="col-md-4">
+      <h3>Income</h3>
+    <iframe src="https://docs.google.com/spreadsheets/d/1-bjgfeRVQj4z5fEyyfO08ATvNfqV8nKswsQ4N6wUpY0/pubhtml?gid=552796785&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </div>
+  </div> <!-- close row for demographic graphs !-->
 
-        <li>Income</li>
-            <ul><li>Household income averaged $113,165 in 2013, 14% increase</li></ul>
+  <div id="violentCrimediv">
+    <h3>Violent Crime</h3>
+    <iframe src="https://docs.google.com/spreadsheets/d/1wyfiTN6ZAdfHy7GMby1b8oJuQPIWxvvFS7BjVFESKpk/pubhtml?gid=962330547&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
+  </div>
+  <div id="propertyCrimediv">
+    <h3>Property Crime</h3>
+    <iframe src="https://docs.google.com/spreadsheets/d/1dyDMosrKK-0G1sh2jjUXuotXJHeLNx1BSuz-7haLk9A/pubhtml?gid=962121596&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
+  </div>
 
-        <li>Education</li>
-            <ul><li>63% of the ward had a bachelor's degree or higher</li>
-                 </ul>
+      <h3>Report</h3>
+      <p>The average household income in Wards 1-6 was $113,165.</p>
+        <p>From 2009-2014:</p>
 
-        <li>Poverty</li>
-            <ul><li>Child poverty decreased</li>
-            </ul>
-</ul>
-
-        <h3>Crime Statistics</h3>
-          <ul><li>Violent Crime</li>
-              <ul><li>36% reduction in violent crime </li>
-              <li>44% decline in reported robbery</li>
-              <li>Average violent crimes in 2014 was between 22 and 47</li>
-              <li>Homicides ranged from 1 homicide between 2011 and 2014 to 4 homicides</li>
-              <li>Decrease in assault iwth dangerous weapon offenses</li>
-              <li>Decrease of over 20% in reported ADW offenses</li>
-              <li>44% decrease in robberies</li>
-              <li>In 2014, there were on average 38 sexual offenses per ward</li>
-              </ul>
-              <li>Property Crime</li>
-                  <ul><li>22.5% increase in property crime</li>
-                      <li>Decrease in burglary offenses</li>
-                      <li>One of the largest decreases in motor vehicle theft, 44% decrease</li>
-                      <li>Most of Ward 1 experienced between 111 and 388 property crimes in 2014, while a smaller portion experienced between 528 and 1142 property crimes </li>
-                      <li>In 2014, Ward 1 experienced the greatest number of TFA’s with 2,080 (78% increase)</li>
-                  </ul>
-            </ul><!-- close crime stats ul !-->
+      <ul>
+      	<li>Violent crime fell 36%.</li>
+      	<li>Robbery dropped 44%.</li>
+      	<li>Assault with a deadly weapon fell by 20% (wards 1-4).</li>
+      	<li>Motor vehicle theft fell by 44%.</li>
+      	<li>Theft grew 78%.</li>
+      	<li>Child poverty decreased (2009-2013).</li>
+      </ul>
 
     </div> <!-- close wardInfo !-->
 

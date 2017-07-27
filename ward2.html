@@ -5,81 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Ward 5</title>
+	<title>Ward 2</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container-fluid">
+  <div class="container-fluid">
 
-  <div id="content">
+    <div id="content">
 
-<div class='header'>
-  <div id="title">Public Safety and Justice Report by Ward</div>
-    <div style="float:right;">
-        <a style="color:rgb(206,206,206);font-size:14px; margin-right:10px;"
-               href="https://github.com/nicoledan/cjcc" target="_blank">This on Github</a>
-        <a style="color:rgb(206,206,206);font-size:14px;" href="index.html">Back to the Map</a>
-      <a style="color:rgb(206,206,206);font-size:14px;" href="https://planning.dc.gov/page/wards-district-columbia"> What's my ward?</a>
+  <div class='header'>
+    <div id="title">Public Safety and Justice Report by Ward</div>
+      <div style="float:right;">
+          <a style="color:rgb(206,206,206);font-size:14px; margin-right:10px;"
+                 href="https://github.com/nicoledan/cjcc" target="_blank">This on Github</a>
+          <a style="color:rgb(206,206,206);font-size:14px;" href="index.html">Back to the Map</a>
+        <a style="color:rgb(206,206,206);font-size:14px;" href="https://planning.dc.gov/page/wards-district-columbia"> What's my ward?</a>
+      </div>
+      </div>
+      <div id="wardInfo">
+
+      <h1 id="wardtitle">Ward 2</h1>
+      <div class="row">
+        <div id="population" class="col-md-4">
+          <h3>Population</h3>
+          <p class="lead">77,645</p>
+        </div>
+        <div id="income" class="col-md-4">
+          <h3>Median Household Income</h3>
+          <p class="lead">$72,388</p>
+        </div>
+        <div id="poverty" class="col-md-4">
+          <h3>Poverty</h3>
+          <p class="lead">13.4%</p>
+        </div>
+      </div><!--close row for stats!-->
+
+      <div class="row">
+        <div id="racegraph" class="col-md-4">
+          <h3>Race</h3>
+          <iframe src="https://docs.google.com/spreadsheets/d/1a_lAOObY5yvAA_6QHzedXEr_rpx87NXTU03G5AF59Yw/pubhtml?gid=1388654058&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+       </div>
+       <div id="educationgraph" class="col-md-4">
+         <h3>Education</h3>
+         <iframe src="https://docs.google.com/spreadsheets/d/1A5yjGf_SdrVbI1CgB1b1QDZFugjuq_ACRaBRaptoEaw/pubhtml?gid=481613792&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+      </div>
+      <div id="incomegraph" class="col-md-4">
+        <h3>Income</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1-bjgfeRVQj4z5fEyyfO08ATvNfqV8nKswsQ4N6wUpY0/pubhtml?gid=2145627183&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+      </div>
+    </div> <!-- close row for demographic graphs !-->
+
+    <div id="violentCrimediv">
+      <h3>Violent Crime</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1wyfiTN6ZAdfHy7GMby1b8oJuQPIWxvvFS7BjVFESKpk/pubhtml?gid=872861775&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
     </div>
+    <div id="propertyCrimediv">
+      <h3>Property Crime</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/1dyDMosrKK-0G1sh2jjUXuotXJHeLNx1BSuz-7haLk9A/pubhtml?gid=375245897&amp;single=true&amp;widget=true&amp;headers=false" class="col-md-12 crimegraph"></iframe>
     </div>
-    <div id="wardInfo">
 
-    <h1>Ward 5</h1>
-
-      <img src="images/ward5.jpg">
-      <audio id="ward2" controls preload="auto">
-  	     <source src="audio/ward5.mp3" type="audio/mp3">
-      </audio>
-      <p>Julie moved to Ward 5 from Atlanta with her family about a year ago. While she was aware of the reputation of crime in D.C., she doesn’t let it influence her day-to-day activities. Instead, she takes simple precautions and walks with a purpose to avoid crime or conflict. </p>
-      <h2>Graphs & Statistics</h2>
-      <h3>Race</h3>
-      <img src="graphs/ward5race.png" class="graph">
-      <h3>Demographic Statistics</h3>
-      <ul id="statistics">
-          <li>General</li>
-          <ul><li>Population increased</li>
-              <li>One of the district's most diverse wards in 2013</li>
+        <h3>Report</h3>
+        <p>From 2009-2014, Ward 2 saw these changes:</p>
+        <ul>
+	        <li>The population grew.</li>
+	        <li>Robberies fell by 45%.</li>
+	        <li>Assault with a deadly weapon fell by 20% (wards 1-4).</li>
+	        <li>Property crime grew by 18%.</li>
+        </ul>
+        <p>The average household income in wards 1-6 was $113,165</p>
+        <p>In 2014:</p>
+        <ul>
+	         <li>Property crimes: 6,320 (among the highest in the District).</li>
+	          <li>Thefts: 4,128</li>
           </ul>
+        <p>From 2009-2013, child poverty fell to 5%.</p>
+        <p>Education in Ward 2:</p>
+        <ul>
+	         <li>High school diploma: 90%.</li>
+	        <li>Bachelor’s degree: 82%.</li>
+        </ul>
 
-        <li>Income</li>
-            <ul><li>Household income averaged $113,165 in 2013, 14% increase</li></ul>
-
-        <li>Education</li>
-            <ul><li>63% of the ward had a bachelor's degree or higher</li>
-                 </ul>
-
-        <li>Poverty</li>
-            <ul><li>Child poverty decreased</li>
-            </ul>
-</ul>
-
-        <h3>Crime Statistics</h3>
-          <ul><li>Violent Crime</li>
-              <ul><li>36% reduction in violent crime </li>
-              <li>44% decline in reported robbery</li>
-              <li>Average violent crimes in 2014 was between 22 and 47</li>
-              <li>Homicides ranged from 1 homicide between 2011 and 2014 to 4 homicides</li>
-              <li>Decrease in assault iwth dangerous weapon offenses</li>
-              <li>Decrease of over 20% in reported ADW offenses</li>
-              <li>44% decrease in robberies</li>
-              <li>In 2014, there were on average 38 sexual offenses per ward</li>
-              </ul>
-              <li>Property Crime</li>
-                  <ul><li>22.5% increase in property crime</li>
-                      <li>Decrease in burglary offenses</li>
-                      <li>One of the largest decreases in motor vehicle theft, 44% decrease</li>
-                      <li>Most of Ward 1 experienced between 111 and 388 property crimes in 2014, while a smaller portion experienced between 528 and 1142 property crimes </li>
-                      <li>In 2014, Ward 1 experienced the greatest number of TFA’s with 2,080 (78% increase)</li>
-                  </ul>
-            </ul><!-- close crime stats ul !-->
-
-    </div> <!-- close wardInfo !-->
+      </div> <!-- close wardInfo !-->
 
 
+    </div>
   </div>
-</div>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/script.js"></script>

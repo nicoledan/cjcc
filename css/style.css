@@ -34,13 +34,16 @@ a {
 }
 .header {
     position: relative;
-    padding: 15px 30px 25px 30px;
+    padding: 15px 30px 25px 10px;
     margin: auto;
+    margin-bottom: 10px;
     z-index: 500;
     background-color: rgb(12, 12, 12);
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .75);
     opacity: 0.8;
+    max-height: 70px;
 }
+
 #about {
     padding: 10px 20px 20px 20px;
     z-index: 4000;
@@ -71,12 +74,12 @@ a {
 
 #wardInfo, #content {
   margin: auto;
-  max-width: 1000px;
+  max-width: 1250px;
   background: #fff;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  padding-top: 3px;
+  padding-top: 5px;
 }
 
 .graph {
@@ -88,12 +91,9 @@ audio {
   margin: auto;
 }
 
-#racegraph {
-  height: 500px;
-}
-
 iframe {
   height: 500px;
+  width: 400px;
 }
 
 h2 {
@@ -103,6 +103,15 @@ h2 {
 .crimegraph {
   padding-bottom: 20px;
 }
+
+#districtreport {
+  padding-top: 10px;
+}
+
+.video {
+  margin: auto;
+}
+
 
 @media (max-width: 768px) {
   #content {
@@ -116,11 +125,17 @@ h2 {
     width: 500px;
     height: 330px;
   }
+
 }
 
 @media (max-width: 700px) {
   iframe {
     width: 350px;
     height: 200px;
+  }
+
+  .header {
+    height: 200px;
+    padding-bottom: 10px;
   }
 }
